@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="public/css/style.min.css">
 
     <!-- Bootstrap -->
-    <!-- <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap.min.css">
 
     <!-- font awesome  -->
     <link rel="stylesheet" href="public/lib/font-awesome/css/font-awesome.min.css">
@@ -47,10 +47,6 @@
                     <a href="#">Support</a>
                 </li>
             </ul>
-            <div class="icons">
-                <span class="fa fa-search"></span>
-                <span class="fa fa-cart-plus"></span>
-            </div>
         </div>
 
         <!-- Slide show  -->
@@ -62,22 +58,32 @@
     <section id="products">
         <h3>Discover Our Favorites</h3>
         <div class="product-container">
-            <div class="product" data-aos="zoom-out-up">
-                <img src="public/img/fav/mp01.jpg" alt="">
-                <p class="p-name">Fast DNA Spin Kit</p>
-                <p class="p-price">$74</p>
+            <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+                <img class="card-img-top p-0 m-0" src="public/img/fav/mp01.jpg" alt="">
+                <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
+                    <p class="p-name">Fast DNA Spin Kit</p>
+                </div>
+            </div>
+    
+            <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+                <img class="card-img-top p-0 m-0" src="public/img/fav/mp02.jpg" alt="">
+                <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
+                    <p class="p-name">Fast DNA Spin Kit</p>
+                </div>
             </div>
 
-            <div class="product" data-aos="zoom-out-up">
-                <img src="public/img/fav/mp02.jpg" alt="">
-                <p class="p-name">Fast DNA Kit</p>
-                <p class="p-price">$100</p>
+            <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+                <img class="card-img-top p-0 m-0" src="public/img/fav/qia01.jpg" alt="">
+                <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
+                    <p class="p-name">Fast DNA Spin Kit</p>
+                </div>
             </div>
 
-            <div class="product" data-aos="zoom-out-up">
-                <img src="public/img/fav/qia01.jpg" alt="">
-                <p class="p-name">Qiazen Product</p>
-                <p class="p-price">$150</p>
+            <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+                <img class="card-img-top p-0 m-0" src="public/img/fav/mp01.jpg" alt="">
+                <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
+                    <p class="p-name">Fast DNA Spin Kit</p>
+                </div>
             </div>
         </div>
     </section>
@@ -107,30 +113,30 @@
         </div>
     </section>
 
-    <section id="mp-product">
-        <div class="product" data-aos="zoom-in">
-            <div class="price-details">
+    <section id="mp-product" class="my-sm-2 p-3">
+        <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+            <img class="card-img-top p-0 m-0" src="public/img/product_images/MP-products/mp03.jpg" alt="">
+            <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
                 <p class="p-name">MP recovery tools</p>
-                <p class="p-price">$4</p>
             </div>
-            <img src="public/img/product_images/MP-products/mp03.jpg" alt="">
-            <button class="btn-white-black">Learn More</button>
         </div>
-        <div class="product" data-aos="zoom-in">
-            <div class="price-details">
+        <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+            <img class="card-img-top p-0 m-0" src="public/img/product_images/MP-products/tar01.jpg" alt="Card image cap">
+            <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
                 <p class="p-name">Tarson product</p>
-                <p class="p-price">$8</p>
             </div>
-            <img src="public/img/product_images/MP-products/tar01.jpg" alt="">
-            <button class="btn-white-black">Learn More</button>
         </div>
-        <div class="product" data-aos="zoom-in">
-            <div class="price-details">
+        <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+            <img class="card-img-top p-0 m-0" src="public/img/product_images/MP-products/tar02.jpg" alt="">
+            <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
                 <p class="p-name">Tarsone cetrifuge tubes</p>
-                <p class="p-price">$5</p>
             </div>
-            <img src="public/img/product_images/MP-products/tar02.jpg" alt="">
-            <button class="btn-white-black">Learn More</button>
+        </div>
+        <div class="product col-md-3 col-sm-6" data-aos="zoom-in">
+            <img class="card-img-top" src="public/img/product_images/MP-products/tar02.jpg" alt="">
+            <div class="price-details d-flex justify-content-around bg-dark text-white p-lg-2 w-100">
+                <p class="p-name">Tarsone cetrifuge tubes</p>
+            </div>
         </div>
     </section>
 
@@ -163,7 +169,7 @@
     </section>
 
     <!-- Footer  -->
-    <footer data-aos="fade-up">
+    <footer class="d-flex" data-aos="fade-up">
         <div class="about">
             <a href="#">About us</a>
             <a href="#">Business</a>
@@ -205,7 +211,7 @@
     </div>
     <!-- Script link  -->
     <script src="public/lib/jquery/jquery.min.js"></script>
-    <!-- <script src="public/lib/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="public/lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="public/lib/slidewiz/src/js/slideWiz.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="public/js/main.js"></script>
