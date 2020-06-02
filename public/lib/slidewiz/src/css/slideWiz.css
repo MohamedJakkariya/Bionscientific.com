@@ -270,7 +270,7 @@
 }
 
 .detail-box {
-    /* width: 42%; */
+    width: 50%;
     padding: 20px;
     position: absolute;
     left: 8%;
@@ -329,4 +329,10 @@
 
 .detail-button:hover {
     background-color: #008b5f;
+}
+
+@media (max-width: 600px){
+    .detail-box {
+        width: 100%; 
+    }
 }
