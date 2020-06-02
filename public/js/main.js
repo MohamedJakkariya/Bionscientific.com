@@ -41,7 +41,6 @@ $(document).ready(function () {
         file: [
             {
                 src: {
-                    // main: "/public/img/showcase/euro03.jpg",
                     cover: "/public/img/showcase/euro01.jpg"
                 },
                 title: 'Euro fin product',
@@ -55,7 +54,6 @@ $(document).ready(function () {
             },
             {
                 src: {
-                    // main: "/public/image/main.png",
                     cover: "/public/img/showcase/mp.jpg"
                 },
                 title: 'MP Biomedical',
@@ -69,7 +67,6 @@ $(document).ready(function () {
             },
             {
                 src: {
-                    // main: "/public/img/showcase/show-3.png",
                     cover: "/public/img/showcase/qia01.jpg"
                 },
                 title: 'Qiagen product ',
@@ -83,7 +80,6 @@ $(document).ready(function () {
             },
             {
                 src: {
-                    // main:"/public/img/showcase/show-4.jpg",
                     cover: "/public/img/showcase/qia02.jpg"
                 },
                 title: 'Tarson product',
