@@ -185,10 +185,12 @@
         $('.nav-close').show();
         
         $('#navbar').animate({
-            'height': '100vh',
-            'z-index': '1'
-        });
+            'height': '100vh'
+          });
         $('.nav-links').show();
+        $('.sign-up-form-wrapper').css({
+          'z-index' : '-1'
+        });
     });
 
     // Navbar close 
