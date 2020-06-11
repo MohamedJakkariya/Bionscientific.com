@@ -5,6 +5,7 @@
     position: relative;
     overflow: hidden;
     padding-top:  5rem;
+    z-index: -1;
     .bg-angle{
         position: absolute;
         // bottom: 0;
@@ -12,7 +13,6 @@
         width: 150%;
         height: 140%;
         background: #d1cebd;
-        z-index: -1;
         transform: rotate(-15deg);
         }
 
@@ -38,6 +38,7 @@
 
     .form-container{
         margin-top: 1.2rem;
+        z-index: -1;
         form{
             box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
 
