@@ -143,6 +143,37 @@
             width: 100%;
         }
     }
+
+    .sign-up-form-wrapper{
+        .bg-angle{
+          top: 30rem;
+          width: 200%;
+          height: 200%;
+          transform: rotate(-8deg);
+          }
+    
+        .header-title{
+          h1{
+            width: 85%;
+            margin: auto;
+          }
+          p{
+            font-size: 1.3rem;
+            width: 90%;
+          }
+        }
+    
+        .form-container{
+          form{
+            margin: 1rem;
+          }
+    
+          .right-box{
+           margin: 2rem 1rem 1.5rem;
+           padding: 0;
+          }
+        }
+      }
 }
 
 
