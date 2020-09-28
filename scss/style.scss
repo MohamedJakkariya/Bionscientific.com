@@ -425,6 +425,31 @@ footer {
 	width: 80%;
 	margin: auto;
 	padding: 1rem 0 0 0;
+	
+	#list-container{
+		// display: flex;
+
+		.list{
+			width: 40%;
+	
+			.segment-title{
+				width: 90%;
+				display: flex;
+				align-items: center;
+				a{
+					padding: 0.5rem 1rem;
+					text-decoration: none;
+					margin: 0 1rem;
+					
+				}
+			}
+	
+			.collapse{
+				padding: 0.5rem 0;
+			}
+		}
+	}
+	
 }
 
 @-webkit-keyframes fade {
