@@ -1,13 +1,12 @@
 /** @format */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400;1,700&display=swap');
-// @import url('../public/lib/bootstrap/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -421,17 +420,29 @@ footer {
 	}
 }
 
-#product_list{
+.overview{
 	width: 80%;
 	margin: auto;
 	padding: 1rem 0 0 0;
-	
-	#list-container{
-		// display: flex;
+	line-height: 1.3;
+	font-size: 24px;
+}
 
-		.list{
-			width: 40%;
-	
+#product_list{
+	width: 80%;
+	margin: auto;
+	padding: 3rem;
+	margin: 3rem auto;
+	box-shadow : 1px 1px 10px rgba(0, 0, 0, 0.5);
+	display: flex;
+
+
+	.list-container{
+		width: 50%;
+
+		.list{	
+			width: 95%;
+			padding: 0.3rem 0;
 			.segment-title{
 				width: 90%;
 				display: flex;
@@ -442,10 +453,6 @@ footer {
 					margin: 0 1rem;
 					
 				}
-			}
-	
-			.collapse{
-				padding: 0.5rem 0;
 			}
 		}
 	}
