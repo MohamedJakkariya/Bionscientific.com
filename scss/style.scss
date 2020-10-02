@@ -456,13 +456,12 @@ footer {
 					margin: 0 1rem;
 				}
 
-				.btn-primary{
+				button{
 					background: #fff;
 					color: #141b41;
 					border: 1px solid #3b4888;
 				}
-
-				.btn-primary:focus{
+				a:focus, button:focus{
 					outline : none;
 					background: #3b4888;
 					color: #fff;
@@ -470,6 +469,7 @@ footer {
 					box-shadow: none;
 				}
 			}
+
 		}
 	}
 	
