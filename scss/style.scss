@@ -436,7 +436,6 @@ footer {
 	box-shadow : 1px 1px 10px rgba(0, 0, 0, 0.5);
 	display: flex;
 
-
 	.list-container{
 		width: 50%;
 
@@ -444,14 +443,27 @@ footer {
 			width: 95%;
 			padding: 0.3rem 0;
 			.segment-title{
-				width: 90%;
+				width: 100%;
 				display: flex;
 				align-items: center;
 				a{
 					padding: 0.5rem 1rem;
 					text-decoration: none;
 					margin: 0 1rem;
-					
+				}
+
+				.btn-primary{
+					background: #fff;
+					color: #141b41;
+					border: 1px solid #3b4888;
+				}
+
+				.btn-primary:focus{
+					outline : none;
+					background: #3b4888;
+					color: #fff;
+					transition : 0.3s;
+					box-shadow: none;
 				}
 			}
 		}
@@ -477,6 +489,6 @@ footer {
 	}
 }
 
-@import 'sign_up_form';
+// @import 'sign_up_form';
 
 @import 'mobile';
