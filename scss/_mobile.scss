@@ -239,7 +239,6 @@
 			top: 30rem;
 			width: 200%;
 			height: 200%;
-			transform: rotate(-8deg);
 		}
 
 		.header-title {
@@ -250,10 +249,14 @@
 			p {
 				font-size: 1.3rem;
 				width: 90%;
+				margin: auto;
 			}
 		}
 
 		.form-container {
+			#mc_embed_signup {
+				width: 100% !important;
+			}
 			form {
 				margin: 1rem;
 			}
