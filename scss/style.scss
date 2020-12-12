@@ -78,7 +78,8 @@ a {
 			}
 		}
 
-		.icon:hover span, .icon:focus span{
+		.icon:hover span,
+		.icon:focus span {
 			color: #ff2e63;
 			transition: 0.4s;
 			transform: scale(1.3);
@@ -252,8 +253,12 @@ a {
 
 	.right-box {
 		width: 50%;
+		display: flex;
+		justify-content: space-around;
+
 		img {
-			height: 100%;
+			height: 90%;
+			padding: 1rem;
 		}
 	}
 }
